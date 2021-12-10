@@ -178,7 +178,10 @@ namespace Com.Kawaiisun.SimpleHostile
         private void ClearRoomList ()
         {
             Transform content = tabRooms.transform.Find("Scroll View/Viewport/Content");
-            foreach (Transform a in content) Destroy(a.gameObject);
+            foreach (Transform a in content)
+            {
+                Destroy(a.gameObject);
+            }
         }
 
         private void VerifyUsername ()
