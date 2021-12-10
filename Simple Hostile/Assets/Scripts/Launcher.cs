@@ -70,6 +70,11 @@ namespace Com.Kawaiisun.SimpleHostile
             Connect();
         }
 
+        private void Update()
+        {
+            ClearRoomList();
+        }
+
         public override void OnConnectedToMaster()
         {
             Debug.Log("CONNECTED!");
