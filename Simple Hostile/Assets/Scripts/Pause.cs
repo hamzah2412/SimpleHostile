@@ -26,7 +26,8 @@ namespace Com.Kawaiisun.SimpleHostile
         {
             disconnecting = true;
             PhotonNetwork.LeaveRoom();
-            SceneManager.LoadScene(0);
+            //SceneManager.LoadScene(0);
+            PhotonNetwork.LoadLevel(0);
         }
     }
 }

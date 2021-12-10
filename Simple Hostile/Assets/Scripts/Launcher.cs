@@ -257,5 +257,7 @@ namespace Com.Kawaiisun.SimpleHostile
                 PhotonNetwork.LoadLevel(maps[currentmap].scene);
             }
         }
+
+
     }
 }

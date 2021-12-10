@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Com.Kawaiisun.SimpleHostile
 {
@@ -28,6 +29,16 @@ namespace Com.Kawaiisun.SimpleHostile
         public void QuitGame()
         {
             Application.Quit();
+        }
+
+        public void CreditScene()
+        {
+            SceneManager.LoadScene("Credits");
+        }
+
+        public void MainMenuScene()
+        {
+            SceneManager.LoadScene("Menu");
         }
     }
 }
